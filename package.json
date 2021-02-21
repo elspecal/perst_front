@@ -1,0 +1,16 @@
+{
+  "name": "mellon66-1",
+  "version": "1.0.0",
+  "description": "implementation of the MELLON66-1 personality test",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {},
+  "author": "Miklos Csepella, Akos Merey",
+  "license": "ISC"
+}
