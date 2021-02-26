@@ -1,27 +1,398 @@
 [
-  {
-  "title": "1. Kérdés",
-  "name": "first",
-  "text":
-    "I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was.",
-  "category": 1
-  },
-  {
-  "title": "2. Kérdés",
-  "name": "second",
-  "text": "It could be Russia, but it could also be China.",
-  "category": 3
-  },
-  {
-  "title": "3. Kérdés",
-  "name": "third",
-  "text": "It could also be lots of other people.",
-  "category": 2
-  },
-  {
-  "title": "4. Kérdés",
-  "name": "fourth",
-  "text": "It’s about making placeholder text great again.",
-  "category": 4
-  }
+    {
+        "title": "1. Kérdés",
+        "name": "first",
+        "text": "Úgy érzem, legtöbbször sikerül a közösség elvárásainak megfelelően cselekednem,  elsősorban azért, mert megpróbálom elkerülni, hogy kifogásolják a viselkedésemet. ",
+        "category": 8
+    },
+    {
+        "title": "2. Kérdés",
+        "name": "second",
+        "text": "Akkor érzem jól magam, ha szelíden és visszafogottan élhetek.",
+        "category": 9
+    },
+    {
+        "title": "3. Kérdés",
+        "name": "third",
+        "text": "Alapvető érték számomra a környezetvédelem, környezettudatosan élek.",
+        "category": 1
+    },
+    {
+        "title": "4. Kérdés",
+        "name": "fourth",
+        "text": "Amiben csak lehet, segítek a hozzátartozóimnak, barátaimnak, közeli munkatársaimnak.",
+        "category": 10
+    },
+    {
+        "title": "5. Kérdés",
+        "name": "fifth",
+        "text": "Arra törekszem, hogy a beosztott munkatársaim tiszteljenek engem.",
+        "category": 6
+    },
+    {
+        "title": "6. Kérdés",
+        "name": "sixth",
+        "text": "Azt szeretném, hogy szabadon élhessek és legkevésbé se függjek másoktól.",
+        "category": 2
+    },
+    {
+        "title": "7. Kérdés",
+        "name": "seventh",
+        "text": "Fontos számomra az emberek nagyrabecsülése. Arra törekszem, hogy kiérdemeljem a környezetem elismerését.",
+        "category": 5
+    },
+    {
+        "title": "8. Kérdés",
+        "name": "eighth",
+        "text": "Igyekszem, hogy lehetőség szerint úgy viselkedjek, ahogy azt elvárják tőlem.",
+        "category": 8
+    },
+    {
+        "title": "9. Kérdés",
+        "name": "ninth",
+        "text": "Fontos számomra, hogy magam hozzam a döntéseimet, a magam szempontjai szerint, a magam egyéni módján alakítsam az életemet.",
+        "category": 2
+    },
+    {
+        "title": "10. Kérdés",
+        "name": "tenth",
+        "text": "Fontosnak tartom, hogy meghallgassam azokat is, akiknek más a véleményük. Akkor is meg akarom érteni a szempontjaikat, ha nem értek egyet velük.",
+        "category": 1
+    },
+    {
+        "title": "11. Kérdés",
+        "name": "eleventh",
+        "text": "Fontosnak tekintem, hogy minden ember egyforma bánásmódban részesüljön, és azonos lehetőségeket kapjon az életben.",
+        "category": 1
+    },
+    {
+        "title": "12. Kérdés",
+        "name": "twelfth",
+        "text": "Gazdag szeretnék lenni, olyan ember, akinek, sok pénze és értékes javai vannak.",
+        "category": 6
+    },
+    {
+        "title": "13. Kérdés",
+        "name": "thirteenth",
+        "text": "Kalandvágyó, kockázatvállaló, sőt kockázatkereső vagyok.",
+        "category": 3
+    },
+    {
+        "title": "14. Kérdés",
+        "name": "fourteenth",
+        "text": "Keresem azokat a helyzeteket, amelyek örömet okoznak nekem.",
+        "category": 4
+    },
+    {
+        "title": "15. Kérdés",
+        "name": "fifteenth",
+        "text": "Kifejezetten figyelek arra, hogy minden körülmények közt becsületes legyek a barátaimhoz és a hozzám közelállókhoz.",
+        "category": 10
+    },
+    {
+        "title": "16. Kérdés",
+        "name": "sixteenth",
+        "text": "Kifejezetten szeretem megvillantani képességeimet mások előtt. Fontos számomra a siker és a visszaigazolás.",
+        "category": 5
+    },
+    {
+        "title": "17. Kérdés",
+        "name": "seventeenth",
+        "text": "Legszívesebben elkerülök minden veszélyesnek tűnő helyzetet.",
+        "category": 7
+    },
+    {
+        "title": "18. Kérdés",
+        "name": "eighteenth",
+        "text": "Lényegesnek tartom, hogy a vezetők mindent megtegyenek a rájuk bízott emberek biztonságáért és megvédjék őket minden körülmények között.",
+        "category": 7
+    },
+    {
+        "title": "19. Kérdés",
+        "name": "nineteenth",
+        "text": "Minden kínálkozó alkalmat kihasználok, hogy jól érezzem magam.",
+        "category": 4
+    },
+    {
+        "title": "20. Kérdés",
+        "name": "twentieth",
+        "text": "Nagyon igyekszem, hogy mindent megtegyek azokért, akiket szeretek és fontosak számomra.",
+        "category": 10
+    },
+    {
+        "title": "21. Kérdés",
+        "name": "twenty-first",
+        "text": "Nem szeretek középpontban lenni, ezért rendszerint igyekszem elkerülni, hogy magamra vonjam a többiek figyelmét.",
+        "category": 9
+    },
+    {
+        "title": "22. Kérdés",
+        "name": "twenty-second",
+        "text": "Örömmel tölt el, ha széles körben elismerik a teljesítményemet és az elért eredményeimet.",
+        "category": 5
+    },
+    {
+        "title": "23. Kérdés",
+        "name": "twenty-third",
+        "text": "Szeretek biztonságban élni.",
+        "category": 7
+    },
+    {
+        "title": "24. Kérdés",
+        "name": "twenty-fourth",
+        "text": "Szeretek kreatívan élni.",
+        "category": 2
+    },
+    {
+        "title": "25. Kérdés",
+        "name": "twenty-fifth",
+        "text": "Szeretek másokat irányítani.",
+        "category": 6
+    },
+    {
+        "title": "26. Kérdés",
+        "name": "twenty-sixth",
+        "text": "Szeretem a meglepetéseket.",
+        "category": 3
+    },
+    {
+        "title": "27. Kérdés",
+        "name": "twenty-seventh",
+        "text": "Szeretem kényeztetni, kifejezetten jól érezni magam.",
+        "category": 4
+    },
+    {
+        "title": "28. Kérdés",
+        "name": "twenty-eight",
+        "text": "Tisztelem a hagyományokat. A tradíciók szerint élek (pl. vallási, családi hagyományok és szokások).",
+        "category": 9
+    },
+    {
+        "title": "29. Kérdés",
+        "name": "twenty-ninth",
+        "text": "Új élményekben gazdag, változatos életre vágyom.",
+        "category": 3
+    },
+    {
+        "title": "30. Kérdés",
+        "name": "tirthieth",
+        "text": "Véleményem szerint akkor is meg kell tartanunk a szabályokat, amikor senki sem ellenőrzi, hogy azoknak megfelelően jártunk-e el.",
+        "category": 8
+    },
+    {
+        "title": "31. Kérdés",
+        "name": "thirty-first",
+        "text": "Szeretek elmerülni a természet szépségében és vonzanak a művészetek.",
+        "category": 1
+    },
+    {
+        "title": "32. Kérdés",
+        "name": "thirty-second",
+        "text": "Érdekesnek, vonzónak, titokzatosnak látom a világot, gyakran fog el a kíváncsiság.",
+        "category": 2
+    },
+    {
+        "title": "33. Kérdés",
+        "name": "thirty-third",
+        "text": "Kalandvágyónak tartom magam.",
+        "category": 3
+    },
+    {
+        "title": "34. Kérdés",
+        "name": "thirty-fourth",
+        "text": "Kerülöm azokat a helyzeteket, amelyek megfosztanak attól, hogy élvezzem az élet élményt adó  vonatkozásait.",
+        "category": 4
+    },
+    {
+        "title": "35. Kérdés",
+        "name": "thirty-fifth",
+        "text": "Szerintem boldogabb ember az, aki az érzelmeire hallgat és nem mérlegel racionális szempontokat.",
+        "category": 11
+    },
+    {
+        "title": "36. Kérdés",
+        "name": "thirty-sixth",
+        "text": "Azok az emberi kapcsolataim értékesek számomra, melyek lehetővé teszik a kölcsönös érdeklődést és feloldódást a kultúrában.",
+        "category": 10
+    },
+    {
+        "title": "37. Kérdés",
+        "name": "thirty-seventh",
+        "text": "A globalizációval szemben meg kell őriznünk a saját hagyományainkat és értékeinket.",
+        "category": 9
+    },
+    {
+        "title": "38. Kérdés",
+        "name": "thirty-eight",
+        "text": "Szeretem, ha udvariasak velem és én is igyekszem így viselkedni másokkal.",
+        "category": 8
+    },
+    {
+        "title": "39. Kérdés",
+        "name": "thirty-ninth",
+        "text": "Vissza kell adni a kölcsön kért pénzt, viszonozni a kapott szívességeket, a pozitív gesztusokat.",
+        "category": 7
+    },
+    {
+        "title": "40. Kérdés",
+        "name": "fortieth",
+        "text": "Szerintem boldogabb ember, aki racionálisan mérlegel és nem az érzelmeire hallgat.",
+        "category": 11
+    },
+    {
+        "title": "41. Kérdés",
+        "name": "forty-first",
+        "text": "Olyan párkapcsolatra vágyom, melyben együtt van jelen a szerelem, hűség és megbocsájtás. ",
+        "category": 10
+    },
+    {
+        "title": "42. Kérdés",
+        "name": "forty-second",
+        "text": "Az őseink által ránk örökített hagyományokat nekünk kell megőrizni és továbbadni.",
+        "category": 9
+    },
+    {
+        "title": "43. Kérdés",
+        "name": "forty-third",
+        "text": "Ahhoz, hogy ne érezzük magunkat hamis biztonságban, mindent meg kell tennünk az egészségünkért.",
+        "category": 7
+    },
+    {
+        "title": "44. Kérdés",
+        "name": "forty-fourth",
+        "text": "Igyekszem vonzó képet kialakítani magamról a környezetemben, valamint ezt a személyes imázst hosszútávon megőrizni és előnyömre fordítani.",
+        "category": 6
+    },
+    {
+        "title": "45. Kérdés",
+        "name": "forty-fifth",
+        "text": "Olyan elismert pozícióra van szükségem, ahol megmutathatom magam, kitűnhetek a környezetemből, kibontakoztathatom a kompetenciáimat, hozzáértésemet, szakmai tudásomat.",
+        "category": 5
+    },
+    {
+        "title": "46. Kérdés",
+        "name": "forty-sixth",
+        "text": "Azok a váratlan helyzetek vonzanak, ahol nem működnek az előre megírt „forgatókönyvek”, ahol feszegethetem a határaimat, próbára tehetem önmagam.",
+        "category": 3
+    },
+    {
+        "title": "47. Kérdés",
+        "name": "forty-seventh",
+        "text": "Az emberek békében éljenek, ne legyenek háborúk, zavargások, belső társadalmi konfliktusok.",
+        "category": 1
+    },
+    {
+        "title": "48. Kérdés",
+        "name": "forty-eight",
+        "text": "A magánéletem túl értékes ahhoz, hogy beleszólást engedjek másoknak és alárendeljem egyéb társadalmi szerepeimnek",
+        "category": 2
+    },
+    {
+        "title": "49. Kérdés",
+        "name": "forty-ninth",
+        "text": "Foglalkoztat az emberi élet értelme és rejtett összefüggései.",
+        "category": 1
+    },
+    {
+        "title": "50. Kérdés",
+        "name": "fiftieth",
+        "text": "Nehezen tűröm a monotonitást.",
+        "category": 3
+    },
+    {
+        "title": "51. Kérdés",
+        "name": "fifty-first",
+        "text": "Tisztában vagyok saját értékeimmel, ha mások ezeket megkérdőjelezik, kész vagyok megvédeni magam.",
+        "category": 2
+    },
+    {
+        "title": "52. Kérdés",
+        "name": "fifty-second",
+        "text": "Nem sajnálok pénzt, időt, figyelmet áldozni önmagamra.",
+        "category": 4
+    },
+    {
+        "title": "53. Kérdés",
+        "name": "fifty-third",
+        "text": "Képességeimet, tehetségemet érvényre akarom juttatni.",
+        "category": 5
+    },
+    {
+        "title": "54. Kérdés",
+        "name": "fifty-fourth",
+        "text": "A döntéseim során vagy a szívemre vagy az értelmemre hallgatok.",
+        "category": 11
+    },
+    {
+        "title": "55. Kérdés",
+        "name": "fifty-fifth",
+        "text": "A közeli és szoros emberi kapcsolataimban legfontosabb az egymás iránti érdeklődés, nyitottság,  kölcsönös elfogadás.",
+        "category": 10
+    },
+    {
+        "title": "56. Kérdés",
+        "name": "fifty-sixth",
+        "text": "Hiszek Istenben és gyakorlom a vallásomat.",
+        "category": 9
+    },
+    {
+        "title": "57. Kérdés",
+        "name": "fifty-seventh",
+        "text": "Legszívesebben olyan emberekkel működök együtt, akik példaértékű módon, becsületesen élnek.",
+        "category": 8
+    },
+    {
+        "title": "58. Kérdés",
+        "name": "fifty-eight",
+        "text": "Szeretek tartozni valahová, nagyra értékelem a család nyújtotta biztonságot és azokat az emberi kapcsolatokat, amelyekre bármikor számíthatok.",
+        "category": 7
+    },
+    {
+        "title": "59. Kérdés",
+        "name": "fifty-ninth",
+        "text": "Elfogadom azt a tételt, hogy 'jól csak a szívével lát az ember'.",
+        "category": 11
+    },
+    {
+        "title": "60. Kérdés",
+        "name": "sixtieth",
+        "text": "Kevés, ha önmagammal elégedett vagyok, mert csak a társadalom elismerése révén  léphetek feljebb.",
+        "category": 6
+    },
+    {
+        "title": "61. Kérdés",
+        "name": "sixty-first",
+        "text": "Az idősek tiszteletet érdemelnek.",
+        "category": 8
+    },
+    {
+        "title": "62. Kérdés",
+        "name": "sixty-second",
+        "text": "Büszke vagyok a szellemi képességeimre és az intelligenciámra, ami segített az előrejutásomban.",
+        "category": 5
+    },
+    {
+        "title": "63. Kérdés",
+        "name": "sixty-third",
+        "text": "Az első megérzéseimre, benyomásaimra  hagyatkozom.",
+        "category": 11
+    },
+    {
+        "title": "64. Kérdés",
+        "name": "sixty-fourth",
+        "text": "Szeretem, ha az élet új ízekkel lep meg.",
+        "category": 4
+    },
+    {
+        "title": "65. Kérdés",
+        "name": "sixty-fifth",
+        "text": "Olyan társadalmi pozícióra vágyom, ahol fontosnak érezhetem magam és befolyással bírhatok másokra.",
+        "category": 6
+    },
+    {
+        "title": "66 Kérdés",
+        "name": "sixty-sixth",
+        "text": "Tekintettel vagyok a környezetemre, ezért igyekszem  a gondolataimat egy mondatban megfogalmazni, hogy mindenki megérthesse azokat.",
+        "category": 11
+    }
 ]
