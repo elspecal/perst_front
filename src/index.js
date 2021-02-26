@@ -1,6 +1,8 @@
 import { editDOM, captureScore } from './lib/util.js';
 import * as store from './lib/store.js';
 
+const URL = 'http://localhost:3000/';
+
 async function fetchQuestions() {
   let res = await fetch('data/questions.json');
   return await res.json();
@@ -79,7 +81,7 @@ function onFinish() {
 }
 
 function onSend({ email, scores }) {
-  fetch('http://localhost:3000/', {
+  fetch(URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ answers: scores, email }),
