@@ -1,7 +1,7 @@
 import { editDOM, captureScore } from './lib/util.js';
 import * as store from './lib/store.js';
 
-const URL = 'http://localhost:3000/';
+const URL = 'https://mellon66.herokuapp.com/';
 
 async function fetchQuestions() {
   let res = await fetch('data/questions.json');
