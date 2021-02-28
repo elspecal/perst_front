@@ -57,7 +57,7 @@ function onFinish() {
   let input = document.createElement('input');
   let label = document.createElement('label');
   let labelText = document.createTextNode(
-    'Tell us where can we send the result of your test 📨'
+    'Tell us where we can send the result of your test 📨'
   );
   let btn = document.createElement('input');
 
