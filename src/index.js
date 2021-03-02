@@ -1,6 +1,9 @@
 import { editDOM, captureScore } from './lib/util.js';
 import * as store from './lib/store.js';
 
+// The address of the API that processes our output shall go here.
+const URL = '';
+
 async function fetchQuestions() {
   let res = await fetch('data/questions.json');
   return await res.json();
@@ -49,27 +52,44 @@ function onStart(state) {
   updateForm(state);
 }
 
-function onFinish({ scores }) {
+function onFinish() {
   const id = 'email';
+  let form = document.createElement('form');
   let input = document.createElement('input');
   let label = document.createElement('label');
   let labelText = document.createTextNode(
-    'Tell us where can we send the result of your test 📨'
+    'Tell us where we can send the result of your test 📨'
   );
-  let scoreboard = document.createElement('h3');
-  let sbText = document.createTextNode(scores.toString());
+  let btn = document.createElement('input');
 
   input.type = id;
   input.id = id;
   input.placeholder = 'email@example.com';
   label.htmlFor = id;
   label.style.display = 'block';
+  btn.type = 'submit';
+  btn.value = 'Send';
+  btn.addEventListener('click', event => {
+    store.emit('send', { email: input.value });
+    event.preventDefault();
+  });
 
-  editDOM('form', 'replaceWith', label);
+  editDOM('form', 'replaceWith', form);
+  editDOM('form', 'append', label);
   editDOM('label', 'append', labelText);
   editDOM('label', 'after', input);
-  editDOM('input', 'after', scoreboard);
-  editDOM('h3', 'append', sbText);
+  editDOM('input[type=email]', 'after', btn);
+}
+
+function onSend({ email, scores }) {
+  fetch(URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ answers: scores, email }),
+  })
+    .then(res => res.json())
+    .then(console.log('🥳'))
+    .catch(err => console.error(err));
 }
 
 fetchQuestions().then(questions => {
@@ -86,6 +106,8 @@ fetchQuestions().then(questions => {
   store.on(start, onStart);
   store.on(submit, updateForm);
   store.on('finish', onFinish);
+  store.on('send', onSend);
+  store.on('secret', onFinish);
 
   try {
     document
@@ -114,4 +136,12 @@ fetchQuestions().then(questions => {
         event.preventDefault();
       }
     });
+
+  document.querySelector('#secret button').addEventListener('click', event => {
+    store.emit('secret', () => {
+      const scores = document.querySelector('#secret input').value.split(' ');
+      return { scores };
+    });
+    event.preventDefault();
+  });
 });
