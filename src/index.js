@@ -1,7 +1,8 @@
 import { editDOM, captureScore } from './lib/util.js';
 import * as store from './lib/store.js';
 
-const URL = 'https://mellon66.herokuapp.com/';
+// The address of the API that processes our output shall go here.
+const URL = '';
 
 async function fetchQuestions() {
   let res = await fetch('data/questions.json');
